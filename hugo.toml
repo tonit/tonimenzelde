@@ -1,0 +1,31 @@
+baseurl = "https://www.tonimenzel.de/"
+title = "Toni Menzel"
+author = "Toni Menzel"
+canonifyurls = true
+languagecode = "de"
+
+theme = "black-and-light-toni"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Toni Menzel"
+  sitesubname = "Spiel auf Augenhöhe"
+
+  disableWebFonts = false
+  logo="/tm_logo.png"
+
+[[menu.main]]
+    name = "CV"
+    url  = "/aboutme"
+[[menu.main]]
+    name = "Projekte"
+    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
+[[menu.main]]
+    name = "Philosophie"
+    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
+[[menu.main]]
+    name = "Kontakt"
+    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
+
