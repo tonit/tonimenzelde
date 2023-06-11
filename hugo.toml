@@ -8,6 +8,7 @@ theme = "black-and-light-toni"
 
 pygmentsstyle       = "bw"
 pygmentscodefences  = true
+relativeURLs = true
 
 [params]
   sitename = "Toni Menzel"
