@@ -22,7 +22,7 @@ relativeURLs = true
     url  = "/aboutme"
 [[menu.main]]
     name = "Projekte"
-    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
+    url  = "/aboutme"
 [[menu.main]]
     name = "Philosophie"
     url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
