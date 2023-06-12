@@ -9,6 +9,7 @@ theme = "black-and-light-toni"
 pygmentsstyle       = "bw"
 pygmentscodefences  = true
 relativeURLs = true
+enableGitInfo = true
 
 [params]
   sitename = "Toni Menzel"
@@ -16,17 +17,4 @@ relativeURLs = true
 
   disableWebFonts = false
   logo="/tm_logo.png"
-
-[[menu.main]]
-    name = "CV"
-    url  = "/aboutme"
-[[menu.main]]
-    name = "Projekte"
-    url  = "/aboutme"
-[[menu.main]]
-    name = "Philosophie"
-    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
-[[menu.main]]
-    name = "Kontakt"
-    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
 
