@@ -4,7 +4,7 @@
   <ul class=posts_listing>
     {{ range where .Site.RegularPages "Section" "posts" }}
       <li>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         <div class=date>
           {{if not .Date.IsZero }}
             {{ .Date.Format (.Site.Params.dateform | default "January 2006") }}
