@@ -1,7 +1,7 @@
 ---
 author: "Michael Henderson"
 date: 2023-06-08
-title: What I am missing in the DevEx Framework
+title: Spiel auf Augenhöhe
 draft: false
 ---
 
