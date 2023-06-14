@@ -8,7 +8,7 @@ layout: "article"
 
 Die Umstände für Softwareteams in Unternehmen ist ein **3 Trilliarden USD** -Problem (1).
 
-![Alt text](/saa1.png)
+![Alt text](/saa2.png)
 
 
 
