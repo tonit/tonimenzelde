@@ -2,7 +2,9 @@ baseurl = "https://www.tonimenzel.de/"
 title = "Toni Menzel"
 author = "Toni Menzel"
 canonifyurls = true
-languagecode = "de"
+timeZone= "Europe/Berlin"
+#languageCode = "de_de"
+defaultContentLanguage = "de_de"
 
 theme = "black-and-light-toni"
 
@@ -17,4 +19,6 @@ enableGitInfo = true
 
   disableWebFonts = false
   logo="/tm_logo.png"
+  #dateform = ":date_full"
+
 
