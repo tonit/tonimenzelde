@@ -5,11 +5,11 @@
 
   {{ if .Params.date }}
     <div id=sub-header>
-      {{ .Date | time.Format ":date_full"}}
+      {{ .Date.Format (.Site.Params.dateform | default "January 2006") }} · {{ .ReadingTime }} minute read
     </div>
   {{ end }}
 
-  <div class="entry-content">
+  <div class="section">
     {{ .Content }}
   </div>
 

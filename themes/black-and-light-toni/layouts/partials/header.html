@@ -22,14 +22,18 @@
     </title>
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon" type="image/x-icon" href="/favicon_32x32.png">
-    {{ partial "styles.html" . }}
+    
 
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
+    <link rel="stylesheet" href="/css/mystyles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
+    <div class="container">
     <section id=nav>
       <a href="/"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.sitename }} logo" width="200"></a>
       <!--<h1><a href="/">{{ .Site.Params.sitename }}</a></h1>-->
@@ -44,3 +48,33 @@
         
       </ul>
     </section>
+    <div class="box">
+      I'm in a box.
+    </div>
+
+    <div class="columns">
+      <div class="column">
+        First column
+      </div>
+      <div class="column">
+        Second column
+      </div>
+      <div class="column">
+        Third column
+      </div>
+      <div class="column">
+        Fourth column
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Hello World
+        </h1>
+        <p class="subtitle">
+          My first website with <strong>Bulma</strong>!
+        </p>
+      </div>
+    </section>
+    </div>

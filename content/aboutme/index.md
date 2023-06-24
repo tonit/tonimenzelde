@@ -4,16 +4,16 @@ title: About Me
 layout: "article"
 ---
 
-## Der Mensch  
 
-![Alt text](/tonit3.png)
-
+{{< round_image "/tonit3.png" "" >}}
 Geboren am 31. Juli 1982 in Staßfurt. 
-Staatsangehörigkeit deutsch.
-
-Verheiratet, stolzer Papa von Mats (2016) und Juli (2019).  
-
+<BR/>
+Verheiratet, stolzer Papa von Mats (2016) und Juli (2019).
+<BR/>
 Toni spricht Deutsch (Muttersprache), Englisch (fließend), Spanisch (Grundlagen), Latein (Basiswissen).
+
+{{< /round_image >}}
+
 
 ## Empfehlungen
 
