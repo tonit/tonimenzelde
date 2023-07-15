@@ -1,6 +1,17 @@
 {{ partial "header.html" . }}
 
+
+<div class="image-container">
+  <img src="/tonit3.png" alt="Test">
+  <h1>Hi, Ich bin Toni!</h1>
+  <p>
+      Ich bin  freiberuflicher Softwareentwickler und Berater. Ich helfe Unternehmen dabei, ihre Software zu verbessern und ihre Teams zu stärken.
+
+  </p>
+</div>
 <section id=content>
+  <h1>Aktuelle Artikel</h1>
+
   <ul class=posts_listing>
     {{ range where .Site.RegularPages "Section" "posts" }}
       <li>
