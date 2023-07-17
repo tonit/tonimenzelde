@@ -3,6 +3,7 @@ author: "Michael Henderson"
 date: 2023-06-08
 title: Spiel auf Augenhöhe
 draft: false
+featured_image : /posts/01-richer/thing.png
 ---
 
 

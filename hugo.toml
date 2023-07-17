@@ -13,6 +13,8 @@ pygmentscodefences  = true
 relativeURLs = true
 enableGitInfo = true
 
+summaryLength = 20
+
 [params]
   sitename = "Toni Menzel"
   sitesubname = "Spiel auf Augenhöhe"
@@ -20,5 +22,6 @@ enableGitInfo = true
   disableWebFonts = false
   logo="/tm_logo.png"
   #dateform = ":date_full"
+  summaryLength = 20
 
 
