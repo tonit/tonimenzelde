@@ -8,9 +8,7 @@ featured_image : /posts/01-richer/thing.png
 
 
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
-
-We'll start with creating a new site with a very basic template. Then we'll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.
+Die Developer Experience (DX) spielt eine entscheidende Rolle in der heutigen technologiegetriebenen Welt. Unternehmen, die in eine optimale DX investieren, schaffen ein Umfeld, in dem Entwickler ihr volles Potenzial entfalten können. Mit nahtlosen Tools, Ressourcen und Support werden nicht nur hochqualifizierte Talente angezogen, sondern auch Produktivität gesteigert, Innovationen vorangetrieben und die Kundenzufriedenheit verbessert. Erfahren Sie, wie eine erstklassige Developer Experience Ihr Unternehmen auf die nächste Stufe bringt.
 
 ![Alt text](thing.png)
 

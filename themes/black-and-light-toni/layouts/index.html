@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-
+<div style="height: 50px;"></div>
 <div class="flex-container">
   <div class="flex-left"><img src="/saa3.png" alt="Test"></div>
   <div class="flex-right"><h1>Welches Problem löse ich?</h1>
@@ -31,8 +31,6 @@
 </div>
 
 <section id=content>
-  <h1>Aktuelle Artikel</h1>
-
   <ul class=posts_listing>
     {{ range where .Site.RegularPages "Section" "posts" }}
     
