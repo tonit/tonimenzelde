@@ -6,48 +6,15 @@
 </h1>
 </p>
 -->
-<div class="child">
-<div class="body-reset flex-container">
-  <div class="flex-left-big image-container"><img src="/tonit3.png" alt="Toni Menzel"></div>
-  <div class="flex-right-big"><h1>Dein Softwareprojekt versinkt in Komplexität?</h1>
-      <p>
-        Ich bin Softwarearchitekt, Entwickler, Tester, Mentor und Vorbild. Seit gut 20 Jahren bin ich als IT-Consultant in Unternehmen wie Deutsche Bank, Morgan Stanley und Volkswagen aktiv.
-        <BR/>
-        Meine Leidenschaft für moderne Softwareentwicklung geben ich in Form von Vorträgen, Workshops und Coachings weiter.
-      </p>
-
-      <img style="width: 200px; display: inline;" src="/email.png" alt="Test">
-    </div>
-</div>
-</div>
-
-<section id=content>
-  <ul class=posts_listing>
-    {{ range where .Site.RegularPages "Section" "posts" }}
-    
-    <div class="flex-container">
-      
-      <div class="flex-left">{{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</div>
-      <div class="flex-right">
-      <li>
-        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-        <div class=date>
-          {{if not .Date.IsZero }}
-            {{ .Date | time.Format ":date_full"}}
-          {{end}}
-        </div>
-        <p>
-          {{ .Summary }}
-        </p>
-      </li>
-      </div>
-    </div>
-    {{ end }}
-  </ul>
-</div>
-</section>
-
-
+<p>
+  I'm a developer living in <a href="#">Los Angeles, CA</a>. I co-founded HashiCorp.
+</p>
+<p>
+I was part of the initial engineering team behind most of our products, such as Vagrant, Packer, Consul, Terraform, Vault, Nomad, Waypoint, and more. I don't work directly on most of those projects anymore. I was CEO for ~4 years, CTO for ~5 years, and then transitioned to being an individual contributor.
+</p>
+<p>
+I fly airplanes. ✈️ I'm an FAA licensed private pilot with an instrument rating (PPL ASEL IR). I currently fly a Cirrus SR22T. I frequently share pictures of my flights. Aviation overlaps with my passion for programming and I routinely work on aviation software for fun.
+</p>
 
 
 {{ partial "footer.html" . }}
