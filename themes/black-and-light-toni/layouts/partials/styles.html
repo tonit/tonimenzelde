@@ -17,6 +17,7 @@
     color:#1d1313;
     max-width:800px;
     margin:auto;
+    background-color: #f7f7f7;
   }
 
   p {
@@ -31,6 +32,7 @@
     margin: 10px auto 10px auto;
     max-width: 100%;
     display: block;
+    border-radius:5%;
   }
 
   .entry-content img {
@@ -418,8 +420,9 @@
 .image-container img {
   float: left;
   margin: 0 20px 0 -25px;
-  border-radius:50%;
-  object-fit: cover; /* Optional: Preserve aspect ratio */
+  border-radius:5%;
+  width: 100%;
+  object-fit: contain; /* Optional: Preserve aspect ratio */
 }
 
 .image-container-centered {
@@ -435,10 +438,16 @@
   object-fit: cover; /* Optional: Preserve aspect ratio */
 }
 
-.flex-container {
+.flex-container2 {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row-reverse wrap;
 }
 
 .flex-left {
@@ -446,10 +455,20 @@
   width: 200px;
 }
 
+.flex-left-big {
+  padding: 20px;
+  width: 300px;
+}
+
 .flex-right {
   padding-left: 20px;
   padding-right: 20px;
   width: 520px;
+}
+.flex-right-big {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 420px;
 }
 
 .child {
@@ -464,6 +483,17 @@
     margin:auto;
     padding-left:40px;
     padding-right:40px;
+  }
+
+  .claimtext {
+    font-family:"Rubik",serif;
+    font-size:32px;
+    line-height:260%;
+    color:#1d1313;
+    max-width:800px;
+    margin:auto;
+    text-align: center;
+    font-style: italic;
   }
 
 </style>

@@ -11,7 +11,6 @@ Geboren am 31. Juli 1982 in Staßfurt.
 Verheiratet, stolzer Papa von Mats (2016) und Juli (2019).
 <BR/>
 Toni spricht Deutsch (Muttersprache), Englisch (fließend), Spanisch (Grundlagen), Latein (Basiswissen).
-
 {{< /round_image >}}
 
 

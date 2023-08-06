@@ -3,6 +3,11 @@ title: "My First Post"
 date: 2023-06-01T19:44:14+02:00
 draft: false
 featured_image : /saa3.png
+tags:
+- Development
+- featured
+categories:
+- dev
 ---
 
 ## Introduction
