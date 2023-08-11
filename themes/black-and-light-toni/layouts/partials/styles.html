@@ -191,6 +191,7 @@
     line-height:120%;
   }
 
+
   .posts_listing a,#nav a {
     text-decoration: none;
   }
@@ -218,7 +219,7 @@
   #content {
     text-align:left;
     width:100%;
-    font-size:15px;
+    font-size:17px;
     padding:60px 0 80px;
   }
 
@@ -275,6 +276,26 @@
     font-size:15px;
     padding: 0 20px;
   }
+
+
+  .selected {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .selected::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #E53C59;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
   #footer {
     text-align:center;
