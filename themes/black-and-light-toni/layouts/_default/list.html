@@ -5,8 +5,7 @@
     {{ range where .Site.RegularPages "Section" "posts" }}
     
       
-      <div class="flex-left"></div>
-      <div class="flex-right">
+     
       <li>
         {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
@@ -19,7 +18,6 @@
           {{ .Summary }}
         </p>
       </li>
-      </div>
     {{ end }}
   </ul>
 </div>
