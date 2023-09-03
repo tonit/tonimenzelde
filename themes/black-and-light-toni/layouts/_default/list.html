@@ -4,11 +4,11 @@
   <ul class=posts_listing>
     {{ range where .Site.RegularPages "Section" "posts" }}
     
-    <div class="flex-container">
       
-      <div class="flex-left">{{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</div>
+      <div class="flex-left"></div>
       <div class="flex-right">
       <li>
+        {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
         <div class=date>
           {{if not .Date.IsZero }}
@@ -20,7 +20,6 @@
         </p>
       </li>
       </div>
-    </div>
     {{ end }}
   </ul>
 </div>
