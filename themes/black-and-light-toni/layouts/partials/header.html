@@ -21,7 +21,7 @@
       {{ end }}
     </title>
     <link rel="canonical" href="{{ .Permalink }}">
-
+    <link rel="icon" type="image/x-icon" href="/favicon_32x32.png">
     {{ partial "styles.html" . }}
 
     {{ range .AlternativeOutputFormats -}}
@@ -30,12 +30,35 @@
   </head>
 
   <body>
+
+    {{ if not .Params.skipnav }}
+
     <section id=nav>
       <a href="/"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.sitename }} logo" width="200"></a>
+      <!--<h1>Developer Experience Consulting</h1>-->
       <!--<h1><a href="/">{{ .Site.Params.sitename }}</a></h1>-->
+    
       <ul>
-        {{ range .Site.Menus.main }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ if eq .Title "Toni Menzel" }}
+        <li><a class="selected" href="/">Hey Techleads</a></li>
+        {{ else }}
+        <li><a href="/">Hey Techleads</a></li>
         {{ end }}
+
+        {{ if eq .Title "Writings" }}
+        <li><div class="selected">Logbuch</div></li>
+        {{ else }}
+        <li><a href="/writings">Logbuch</a></li>
+        {{ end }}
+        
+
+        {{ if eq .Title "Kundenstimmen" }}
+        <li><a class="selected" href="/kundenstimmen">Verschiedenes</a></li>
+        {{ else }}
+        <li><a href="/kundenstimmen">Verschiedenes</a></li>
+        {{ end }}
+
       </ul>
+  
     </section>
+   {{ end }}

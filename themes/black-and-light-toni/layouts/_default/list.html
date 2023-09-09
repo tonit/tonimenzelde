@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+<section id=content>
+  <!--
+  <img src="/tonit3.png">
+  <h1><a href="https://tonimenzel.substack.com/">The Developer Engine Room</a></h1>
+  <p>
+    Eine Blog auf Englisch..
+  </p>
+-->
+  <ul class=posts_listing>
+    {{ range where .Site.RegularPages "Section" "posts" }}
+     
+      <li>
+        <!--{{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}-->
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        <div class=date>
+          {{if not .Date.IsZero }}
+            {{ .Date | time.Format ":date_full"}}
+          {{end}}
+        </div>
+        <p>
+          {{ .Summary }}.
+        </p>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+</section>
+
+{{ partial "footer.html" . }}
+
+
