@@ -2,6 +2,7 @@
 author: "Toni Menzel"
 title: Vision
 layout: "article"
+draft: true
 ---
 
 # DevX Vision: Spiel auf Augenhöhe
