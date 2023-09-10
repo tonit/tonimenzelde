@@ -1,5 +1,6 @@
 baseurl = "https://www.tonimenzel.de/"
 title = "Toni Menzel"
+description= "Ich biete frisches Tech-Consulting für Dev-Teams mit Ambitionen & Humor."
 author = "Toni Menzel"
 canonifyurls = true
 timeZone= "Europe/Berlin"
