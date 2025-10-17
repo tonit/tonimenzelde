@@ -574,4 +574,45 @@
     font-style: italic;
   }
 
+  .about-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .about-text {
+    flex: 1;
+  }
+
+  .about-text h2 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 750px) {
+    .about-section {
+      flex-direction: column;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .profile-image {
+      width: 160px;
+      height: 160px;
+    }
+
+    .about-text {
+      text-align: left;
+    }
+  }
+
 </style>
