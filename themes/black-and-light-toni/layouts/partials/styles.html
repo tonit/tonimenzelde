@@ -794,27 +794,29 @@
 
   .tile {
     background: #ffffff;
-    border: 3px solid #000000;
+    border: 1px solid #e5e5e5;
     padding: 36px;
-    border-radius: 16px;
+    border-radius: 12px;
     transition: all 0.3s ease;
   }
 
   .tile:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-color: #d0d0d0;
   }
 
   /* Hero Tile */
   .tile-hero {
     grid-column: span 4;
     grid-row: span 2;
-    background: linear-gradient(135deg, #000000 0%, #2a2a2a 100%);
+    background: #000000;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 60px;
+    border: none;
   }
 
   .tile-hero h1 {
@@ -894,13 +896,15 @@
   /* Problem & Solution Tiles */
   .tile-problem {
     grid-column: span 3;
-    background: #000000;
+    background: #1a1a1a;
     color: #ffffff;
+    border: none;
   }
 
   .tile-problem .tile-label {
     background: #88eead;
     color: #000000;
+    border-radius: 6px;
   }
 
   .tile-problem h3 {
@@ -910,7 +914,7 @@
   }
 
   .tile-problem p {
-    color: #e0e0e0;
+    color: #e5e5e5;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -920,17 +924,20 @@
     background: #88eead;
     color: #000000;
     padding: 2px 6px;
+    border-radius: 4px;
     font-weight: 700;
   }
 
   .tile-solution {
     grid-column: span 3;
-    background: #88eead;
+    background: #f0fdf4;
+    border: 1px solid #88eead;
   }
 
   .tile-solution .tile-label {
     background: #000000;
     color: #ffffff;
+    border-radius: 6px;
   }
 
   .tile-solution h3 {
@@ -981,7 +988,7 @@
   .solution-result {
     margin-top: 16px;
     padding-top: 16px;
-    border-top: 2px solid #000000;
+    border-top: 1px solid #d0d0d0;
     font-size: 15px;
     line-height: 1.4;
   }
@@ -1074,7 +1081,7 @@
   .tile-result {
     grid-column: span 3;
     background: #ffffff;
-    border-color: #88eead;
+    border: 1px solid #e5e5e5;
     text-align: left;
     padding: 40px;
     display: flex;
@@ -1084,8 +1091,8 @@
   }
 
   .tile-result:hover {
-    background: #88eead;
-    border-color: #000000;
+    background: #f0fdf4;
+    border-color: #88eead;
   }
 
   .result-icon {
@@ -1116,11 +1123,12 @@
   .tile-philosophy {
     grid-column: span 3;
     grid-row: span 2;
-    background: #000000;
+    background: #1a1a1a;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: none;
   }
 
   .tile-philosophy h3 {
@@ -1131,7 +1139,7 @@
   }
 
   .tile-philosophy p {
-    color: #e0e0e0;
+    color: #e5e5e5;
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
@@ -1141,6 +1149,7 @@
     background: #88eead;
     color: #000000;
     padding: 2px 6px;
+    border-radius: 4px;
     font-weight: 700;
   }
 
@@ -1186,7 +1195,7 @@
   /* CTA Tile - Takes 2 columns */
   .tile-cta {
     grid-column: span 2;
-    background: #000000;
+    background: #1a1a1a;
     color: #ffffff;
     text-align: center;
     display: flex;
@@ -1194,6 +1203,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px 36px;
+    border: none;
   }
 
   .tile-cta h2 {
@@ -1215,21 +1225,21 @@
     padding: 16px 40px;
     background: #88eead;
     color: #000000;
-    font-weight: 900;
-    font-size: 18px;
-    border-radius: 0;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
     text-decoration: none;
-    border: 3px solid #88eead;
-    transition: all 0.15s ease;
+    border: none;
+    transition: all 0.2s ease;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
 
   .tile-cta .cta-button:hover {
-    background: #000000;
-    color: #88eead;
-    transform: scale(1.05);
-    border: 3px solid #88eead;
+    background: #6fd88a;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(136, 238, 173, 0.3);
   }
 
   /* Combined Contact Tile */
