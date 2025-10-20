@@ -1,246 +1,205 @@
-# 🎯 Toni Menzel – Vollständige Positionierung (KI-Sparring-Input)
+# 🎯 TONI MENZEL – POSITIONIERUNG (Kompakt)
 
------
+**Version 2.0 – Januar 2025**
 
-## **Wer ist Toni Menzel?**
+---
 
-**Toni Menzel ist DevSecOps-Architekt für KRITIS-Betreiber und regulierte Mittelständler.** Er spezialisiert sich darauf, Organisationen in stark regulierten Industrien – Banking, MedTech, Energy, Public Sector – dabei zu helfen, ihre Software-Delivery-Prozesse zu professionalisieren und gleichzeitig Compliance-Anforderungen wie NIS2, DORA, CRA und ISO27001 zu erfüllen. Mit über 20 Jahren Erfahrung in Aerospace, Defense, Banking und öffentlichem Sektor hat er eine tiefe Expertise darin entwickelt, wie man technische Exzellenz und regulatorische Anforderungen in Einklang bringt.
+## KERN-POSITIONIERUNG
 
------
+**Toni Menzel ist DevSecOps-Architekt für hochsichere KRITIS-Infrastrukturen mit Spezialisierung auf Airgapped Software Delivery.**
 
-## **Das Problem, das er löst**
+Er hilft Organisationen in Banking, Public Sector und Zahlungsverkehr, ihre Software-Delivery-Prozesse zu professionalisieren und gleichzeitig höchste Sicherheits- und Compliance-Anforderungen (NIS2, DORA, PCI-DSS, ISO27001) zu erfüllen.
 
-Viele technische Organisationen in regulierten Industrien stecken zwischen zwei Mühlsteinen fest:
+**LinkedIn-Claim:**
+```
+🤿 DevSecOps-Architekt für hochsichere KRITIS-Infrastrukturen •
+Airgapped Software Delivery • Banking, Public Sector •
+NIS2/DORA, 20+ Jahre Erfahrung
+```
 
-1. **Wachsender Compliance-Druck:** NIS2, DORA, CRA, ISO27001 und andere Regulierungen verlangen nach professionellen, nachvollziehbaren und sicheren Software-Delivery-Prozessen.
-1. **Chaotische Software-Delivery:** Gleichzeitig leiden diese Organisationen unter “Amateur-SDLC” – manuelle Deployments, fehlende Security-Maßnahmen, Wissensinseln, Tool-Wildwuchs, gescheiterte DevOps-Initiativen und überlastete Teams.
+**🤿 = "Taucher"** = Metapher für "Airgapped" (unter Wasser, isoliert von der Außenwelt)
 
-Das Resultat: Teams arbeiten unter Dauerstress, Audits werden zur existenziellen Bedrohung, und statt schneller zu werden, verlangsamt sich die Delivery immer weiter. Viele Organisationen empfinden Compliance als Bremse, die Innovation verhindert.
+---
 
------
+## DAS PROBLEM
 
-## **Seine Lösung**
+KRITIS-Betreiber stecken zwischen zwei Mühlsteinen:
+1. **Wachsender Compliance-Druck:** NIS2, DORA, PCI-DSS, ISO27001
+2. **Chaotische Software-Delivery:** Manuelle Deployments, fehlende Security, überlastete Teams
 
-Toni transformiert diese Umgebungen in **professionelle, sichere und auditierbare Software-Delivery-Systeme**, die Compliance nicht als Hindernis, sondern als **Beschleuniger** nutzen. Seine Überzeugung: Wenn Prozesse reproduzierbar, sicher und transparent sind, wird Technologie planbar. Und wenn Teams wieder verstehen, was sie tun und warum sie es tun, entsteht Flow.
+**Resultat:** Dauerstress, Audit-Angst, Verlangsamung statt Beschleunigung
 
-Seine Arbeit umfasst:
+**Airgapped-Herausforderung:** 95% aller DevOps-Engineers haben keine Erfahrung mit vollständig isolierten Umgebungen (kein Internet, alle Dependencies manuell kuratiert).
 
-### **1. Assessment & Gap-Analyse (typisch 2 Wochen)**
+---
 
-- Identifikation von Compliance-Lücken (NIS2, DORA, CRA, ISO27001)
-- Analyse der bestehenden SDLC-Prozesse und Tool-Landschaft
-- Risiko-Bewertung und Priorisierung
-- Erstellung einer pragmatischen Roadmap mit Quick-Wins
+## DIE LÖSUNG
 
-### **2. DevSecOps-Transformation (typisch 3-6 Monate)**
+**3-Stufen-Ansatz:**
 
-- Aufbau professioneller CI/CD-Pipelines mit eingebauter Security
-- Infrastructure-as-Code für Reproduzierbarkeit und Auditierbarkeit
-- Implementierung von Security-by-Design-Prinzipien
-- Etablierung von Observability und Monitoring
-- Automatisierung von Compliance-Nachweisen
-- Härtung und Absicherung der gesamten Software-Supply-Chain
+1. **Assessment (2 Wochen, 8-15k€):** Gap-Analyse, Risiko-Bewertung, Roadmap
+2. **Transformation (3-6 Monate, 1.400-1.600€/Tag):** Hands-on CI/CD-Aufbau, Security-Härtung, Team-Enablement
+3. **Fractional CTO (10-20 Tage/Monat):** Strategische Begleitung, Architektur-Reviews
 
-### **3. Team-Enablement & Knowledge Transfer**
+**Ergebnis:** Audit-sichere Systeme, schnellere Releases, entlastete Teams, nachhaltige Fähigkeiten
 
-- Hands-on Pairing mit Engineering-Teams
-- Workshops zu DevSecOps-Praktiken
-- Erstellung von Runbooks und Architecture Decision Records
-- Aufbau nachhaltiger Fähigkeiten im Unternehmen
+---
 
-Das Ergebnis: audit-sichere Systeme, die Teams entlasten statt belasten, Risiken senken, Vertrauen schaffen – technisch, organisatorisch und menschlich.
+## DIFFERENZIERUNG
 
------
+### vs. Big4 (PwC, KPMG):
+- ✅ Hands-on statt PowerPoint
+- ✅ Ein Experte statt 5-köpfiges Team
+- ✅ Engineering UND Compliance
 
-## **Was ihn unterscheidet**
+### vs. DevOps-Freelancer:
+- ✅ Compliance-Expertise (NIS2, DORA, PCI-DSS)
+- ✅ KRITIS-Erfahrung (20+ Jahre)
+- ✅ Airgapped-Spezialisierung (<1% haben das)
 
-### **vs. große Beratungen (Accenture, Thoughtworks, PwC, KPMG):**
+### vs. Compliance-Consultants:
+- ✅ Technische Umsetzung, nicht nur Dokumente
+- ✅ Velocity-Fokus (Compliance als Beschleuniger)
 
-- **Hands-on statt PowerPoint:** Toni arbeitet MIT Teams, nicht über ihnen. Er implementiert selbst, codet, konfiguriert – keine Folienware.
-- **Ein Experte statt 5-köpfiges Team:** Effizienter, direkter, konsistenter. Kein Wissenstransfer zwischen Junior-Consultants.
-- **Engineering UND Compliance:** Er versteht beide Welten – nicht nur Prozesse schreiben oder nur Kubernetes installieren, sondern beides integriert.
+**Unfair Advantage:** 🤿 Airgapped Software Delivery für deutsche Justiz (2025) – höchste Sicherheitsstufe, niemand sonst im Markt
 
-### **vs. DevOps-Freelancer:**
+---
 
-- **Compliance-Expertise:** Toni kennt NIS2, DORA, CRA, ISO27001 aus der Praxis – nicht nur theoretisch, sondern in der konkreten Umsetzung.
-- **KRITIS-Erfahrung:** Er versteht regulierte Umgebungen und deren Risikodenken, Entscheidungsprozesse und Sicherheitsanforderungen.
-- **Muster-Erkennung:** 20+ Jahre über verschiedene Industrien hinweg ermöglichen ihm, Probleme schneller zu erkennen und pragmatische Lösungen zu finden.
+## PHILOSOPHIE
 
-### **vs. Compliance-Consultants:**
+1. **"Healthy Systems need Healthy Teams"** – Technologieprobleme sind Organisationsprobleme in Verkleidung
+2. **"Compliance is a Forcing Function"** – Regulierung zwingt zu Klarheit und schafft Budget
+3. **"Professionalization Beats Heroics"** – Systeme müssen ohne Helden funktionieren
+4. **"Teaching is Multiplication"** – Wissen muss bleiben
+5. **"Airgapped doesn't mean slow"** – Mit richtiger Architektur genauso schnell wie Cloud
 
-- **Technische Umsetzung:** Toni baut Systeme, schreibt nicht nur Prozessdokumente. Er liefert funktionierende Infrastruktur, nicht nur Konzepte.
-- **Velocity-Fokus:** Seine Mission ist es, Compliance als Beschleuniger zu nutzen, nicht als Bremse. Teams sollen schneller werden, nicht langsamer.
-- **Nachhaltigkeit:** Wissen bleibt im Unternehmen durch Team-Enablement, statt externe Abhängigkeit zu schaffen.
+---
 
------
+## ZIELGRUPPEN
 
-## **Seine Philosophie & Überzeugungen**
+### Primär:
+**Banking & Zahlungsverkehr:** Banken, Sparkassen, FinTech (DORA, PCI-DSS)
+**Public Sector:** Justiz, Behörden, Sicherheitsbehörden (NIS2, BSI-Grundschutz)
 
-### **1. “Healthy Systems need Healthy Teams”**
+### Sekundär (Expertise übertragbar):
+Energie, Gesundheit, Telekommunikation, Transport
 
-Technologieprobleme sind meist Organisationsprobleme in Verkleidung. Wenn Teams überlastet, gestresst oder im Dunkeln tappen, werden auch die besten Tools nicht helfen. Deshalb beginnt echte Transformation bei den Menschen – durch Klarheit, Ownership und psychologische Sicherheit.
+### NICHT Zielgruppe:
+❌ Startups ohne Compliance-Druck
+❌ Nicht-regulierte Tech-Companies
+❌ Reine Cloud-Native-Projekte ohne Security-Fokus
 
-### **2. “Compliance is a Forcing Function”**
+---
 
-Regulierung zwingt zu Klarheit. Statt Compliance als bürokratische Last zu sehen, nutzt Toni sie als Katalysator: NIS2 ist ein Grund, endlich professionelle Logging- und Monitoring-Systeme aufzubauen. DORA ist ein Grund, Disaster-Recovery nicht länger aufzuschieben. Compliance macht sichtbar, was ohnehin nötig wäre – und schafft Budget dafür.
+## NACHWEISBARE EXPERTISE
 
-### **3. “Professionalization Beats Heroics”**
+### Aktuelle Projekte (2022-2025):
+- **🤿 Deutsche Justiz (2025):** Airgapped CI/CD-Plattform, VS-NfD-Level
+- **IBM Public Sector (2022-2024):** 3 Jahre, Observability, DevSecOps-Modernisierung
+- **[Kundenschutz] (2023+):** GitHub Enterprise Migration, ISO27001-Zertifizierung
 
-Heldentum ist kein Betriebsmodell. Organisationen, die auf einzelne “Hero Engineers” angewiesen sind, sind fragil. Professionelle Systeme sind automatisiert, transparent, dokumentiert – sie funktionieren auch ohne Helden. Tonis Ziel: Teams von Heroics zu Professionalism zu führen.
+### Banking & Zahlungsverkehr:
+- **DWP Bank (2022-2023):** Mainframe→Kubernetes, DORA-relevant
+- **Postbank/Deutsche Bank (2018-2020):** Microservices, CI/CD, OpenShift
+- **Concardis (2017-2018):** PCI-konformes Zahlungsgateway
+- **Morgan Stanley (2011-2012):** Tier-1 International Banking
 
-### **4. “Teaching is Multiplication”**
+### Defense & Hochsicherheit:
+- **Thales Defense (2013):** CI/CD für Defense-Systems
+- **Bundesdruckerei (2009):** Open-Source in vertrauliche Umgebung
+- **Lufthansa Systems (2007-2009):** Safety-Critical Systems
 
-Transformation gelingt nur, wenn Wissen bleibt, nachdem er geht. Toni arbeitet nicht als klassischer Consultant, der ein Konzept schreibt und verschwindet. Er befähigt Teams durch Pairing, Workshops und Hands-on Architekturarbeit, sodass sie selbstständig weitermachen können.
+---
 
------
+## TECHNISCHE EXPERTISE
 
-## **Seine Arbeitsweise**
+**DevSecOps:** GitHub Actions, GitLab, ArgoCD, Tekton, Jenkins | Nexus, Artifactory | Trivy, Dependabot
+**Infrastructure:** Kubernetes, OpenShift | Terraform, Ansible, Helm | AWS, Azure, GCP, On-Prem
+**Security:** SBOM (CycloneDX), SOPS, Vault | Policy-as-Code (OPA)
+**Observability:** Grafana, Datadog, Instana, OpenTelemetry, Prometheus
+**Languages:** Go, Java, Kotlin, Python, Bash
+**Airgapped:** Binary-Verification, Offline-Package-Management, Vendor-Attestation
 
-### **Was Toni NICHT macht:**
+---
 
-- Klassisches Consulting mit PowerPoint-Präsentationen und Exit nach 3 Wochen
-- Reine Prozess-/Dokumentationsarbeit ohne technische Umsetzung
-- Tool-Evangelismus oder Vendor-Lock-in (“Ihr braucht unbedingt Produkt X!”)
-- Show-Transformationen ohne messbare, nachhaltige Verbesserung
+## COMPLIANCE-EXPERTISE
 
-### **Was Toni macht:**
+- **NIS2:** Public Sector, Banking (IBM, Justiz)
+- **DORA:** Banking (Deutsche Bank, Postbank, DWP, Morgan Stanley)
+- **PCI-DSS:** Zahlungsverkehr (Concardis)
+- **ISO27001:** Software-Lieferkettensicherheit (aktueller Kunde)
+- **BSI-Grundschutz:** Public Sector
 
-- **Hands-on Architekturarbeit:** Er baut mit, nicht nur konzeptionell. Code, Infrastruktur, Pipelines – alles entsteht gemeinsam.
-- **Pairing & Workshops:** Wissenstransfer durch gemeinsames Arbeiten, nicht durch Frontalunterricht.
-- **Pragmatisch, nicht dogmatisch:** Lösungen, die zu echten Organisationen passen, nicht zu Lehrbuch-Architekturen.
-- **Infrastructure-as-Code:** Alles wird versioniert, reproduzierbar, auditierbar – keine manuellen Konfigurationen.
-- **Security-by-Design:** Security ist kein nachträgliches Add-on, sondern von Anfang an eingebaut.
-- **Europäischer Pragmatismus:** Tiefes Verständnis von DACH-Business-Kultur, Regulierung und Ingenieursmentalität.
+---
 
------
+## ARBEITSWEISE
 
-## **Seine Zielgruppen**
+### Was Toni NICHT macht:
+❌ PowerPoint-Consulting ohne Umsetzung
+❌ Nur Prozessdokumente schreiben
+❌ Tool-Evangelismus / Vendor-Lock-in
+❌ Show-Transformationen ohne messbare Ergebnisse
 
-### **Primär: KRITIS-Betreiber**
+### Was Toni macht:
+✅ Hands-on Architekturarbeit (Code, Infrastruktur, Pipelines)
+✅ Pairing & Workshops (Wissenstransfer durch gemeinsames Arbeiten)
+✅ Pragmatische Lösungen (nicht dogmatisch)
+✅ Infrastructure-as-Code (versioniert, reproduzierbar, auditierbar)
+✅ Team-Enablement (Wissen bleibt)
 
-Organisationen, die unter die Kritische-Infrastruktur-Definition fallen:
+---
 
-- **Energie:** Stadtwerke, Netzbetreiber, Stromversorger
-- **Gesundheit:** Krankenhäuser, Klinikverbünde
-- **Finanz:** Banken, Sparkassen, Versicherungen, Zahlungsdienstleister
-- **Public Sector:** Behörden, Justiz, öffentliche Verwaltung
-- **Transport:** Bahn, Flughäfen, Logistik
-- **Wasser:** Trinkwasserversorger
-- **Telekommunikation:** Provider, Rechenzentren
+## ELEVATOR PITCH (2 Minuten)
 
-### **Sekundär: Regulierte Mittelständler**
+> "Ich helfe KRITIS-Betreibern, ihre Software-Delivery zu professionalisieren und gleichzeitig NIS2, DORA oder PCI-DSS zu erfüllen.
+>
+> In 20+ Jahren habe ich mit Morgan Stanley, Deutsche Bank, Postbank, Bundesdruckerei gearbeitet – immer in Umgebungen, wo ein Ausfall Schlagzeilen macht.
+>
+> Meine Spezialisierung: Airgapped Software Delivery – CI/CD in vollständig isolierten Umgebungen.
+>
+> Mein Ansatz: Hands-on mit euren Teams, funktionierende Systeme statt Konzepte, Wissen bleibt nach meinem Weggang. Am Ende: schnellere Releases, reduzierte Risiken, bestandene Audits."
 
-Unternehmen, die nicht KRITIS sind, aber unter starkem Compliance-Druck stehen:
+---
 
-- **FinTech & InsurTech:** Scale-ups unter DORA/BaFin-Aufsicht
-- **MedTech & HealthTech:** Medizingerätehersteller, Digital-Health-Anbieter
-- **EnergyTech:** Smart-Grid-Anbieter, Energiemanagement-Software
-- **Automotive/Aerospace-Zulieferer:** Unter CRA-Druck (Cyber Resilience Act)
-- **SaaS für regulierte Industrien:** Software-Anbieter, deren Kunden KRITIS/reguliert sind
+## HÄUFIGE EINWÄNDE
 
------
+**"Haben Sie Erfahrung in unserer Branche?"**
+→ "Security-Patterns sind branchenübergreifend. NIS2 verlangt die gleichen Prinzipien bei Stadtwerken wie bei Behörden. Ich bringe DevSecOps-Expertise, Sie bringen Domänen-Wissen."
 
-## **Typische Projektergebnisse**
+**"Warum nicht Big4?"**
+→ "Big4: 5-köpfiges Team, 10k€/Tag, 200-Seiten-Konzept. Ich: Ein Experte, 1.6k€/Tag, funktionierende Pipelines. Frage: Konzept oder Lösung?"
 
-Nach der Zusammenarbeit mit Toni haben Kunden:
+**"1.600€/Tag ist teuer."**
+→ "Ein günstiger Freelancer (6 Monate, durchfällt im Audit) kostet mehr als ich (3 Monate, audit-sicher). Sie zahlen für 20+ Jahre KRITIS + Airgapped-Expertise."
 
-✅ **Audit-sichere Software-Delivery:** Vollständiges Logging, nachvollziehbare Prozesse, reproduzierbare Builds
-✅ **Schnellere Releases:** Deployment-Zeiten von Wochen auf Stunden reduziert
-✅ **Reduzierte Risiken:** Security-by-Design, automatisierte Vulnerability-Scans, gehärtete Infrastruktur
-✅ **Entlastete Teams:** Weniger Heroics, mehr Automatisierung, klarere Verantwortlichkeiten
-✅ **Bestandene Audits:** NIS2/DORA/CRA/ISO27001-Nachweise vorhanden und aktuell
-✅ **Nachhaltige Fähigkeiten:** Teams können selbstständig weiterarbeiten, kein Vendor-Lock-in
+---
 
------
+## CONTENT-THEMES
 
-## **Sein Hintergrund & Credibility**
+**🤿 Airgapped DevSecOps:** "Was macht airgapped CI/CD anders?" | "SBOM ohne Internet"
+**NIS2 & DORA:** "90-Tage-Roadmap" | "DORA ohne Teams auszubremsen"
+**Healthy Teams:** "Von Heroics zu Professionalism" | "Compliance als Forcing Function"
+**Banking & Public Sector:** "Was Banking von Public Sector lernen kann" | "Mainframe→Cloud"
 
-### **Erfahrung:**
+---
 
-- **20+ Jahre** in stark regulierten Industrien
-- **Banking:** Compliance-getriebene Software-Delivery in Finanzinstituten
-- **Aerospace & Defense:** Safety-critical Systems mit höchsten Sicherheitsanforderungen
-- **Public Sector:** Behörden, Justiz, öffentliche Verwaltung mit besonderen Datenschutz-Anforderungen
-- **MedTech & Energy:** Emerging-Compliance-Druck in innovativen Industrien
+## FÜR KI-ASSISTENTEN
 
-### **Multi-Industry-Perspektive:**
+**Persönlichkeit:** Direkt aber empathisch, pragmatisch, technisch versiert aber verständlich, Coaching-Mentalität, ehrlich
 
-Diese Vielfalt ermöglicht es ihm, Muster schneller zu erkennen, Risiken realistischer einzuschätzen und pragmatische Lösungen zu schaffen. Er bringt Best Practices aus einer Industrie in eine andere – z.B. Defense-Grade-Security in Banking oder Banking-Prozesse in Energy.
+**Kommunikationsstil:** Keine Buzzwords, konkrete Beispiele, "Warum" erklären, Optionen statt Dogmen
 
-### **Technische Expertise:**
+**Positionierung:** Banking + Public Sector + Airgapped | USP: 🤿 | Hands-on + Compliance
 
-- DevSecOps-Architektur & CI/CD-Pipelines
-- Infrastructure-as-Code (Terraform, Ansible, GitOps)
-- Kubernetes, Container-Security, Cloud & On-Prem
-- Security-Hardening, Logging, Observability
-- SDLC-Professionalisierung & Software-Supply-Chain-Security
+**Typische Phrasen:**
+- "Lass uns pragmatisch sein: Was funktioniert für EURE Organisation?"
+- "Technologieprobleme sind Organisationsprobleme in Verkleidung"
+- "Compliance ist ein Forcing Function"
+- "Healthy Teams Climb Higher"
+- "Airgapped bedeutet kontrolliert, nicht langsam"
 
-### **Compliance-Expertise:**
+**Kontakt:** toni.menzel@rebaze.com | +49 171 6520284 | linkedin.com/in/tonit/
 
-- NIS2 (Network and Information Security Directive 2)
-- DORA (Digital Operational Resilience Act für Finanzsektor)
-- CRA (Cyber Resilience Act für Produkthersteller)
-- ISO27001 (Information Security Management)
-- BSI-Grundschutz (deutscher IT-Sicherheitsstandard)
+---
 
------
-
-## **Seine Vision**
-
-Toni will, dass europäische Ingenieursorganisationen wieder stolz auf ihre Softwarelieferung sein können: **schnell, sicher, professionell** – ohne Helden, ohne Chaos, ohne Angst vor Audits.
-
-Er glaubt fest daran, dass “Velocity Through Compliance” nicht nur möglich, sondern der nachhaltige Weg ist. Compliance sollte nicht länger als Feind von Innovation gesehen werden, sondern als Rahmen, der professionelle Software-Delivery erzwingt – und damit langfristig beschleunigt.
-
-Seine Kernbotschaft: **“Healthy Teams Climb Higher.”** Wenn Teams verstehen, was sie tun, wenn Prozesse transparent sind, wenn Systeme robust laufen – dann entsteht echter Flow. Und dann wird auch Compliance nicht zur Last, sondern zum selbstverständlichen Teil professioneller Arbeit.
-
------
-
-## **Go-to-Market & Vertrieb**
-
-### **Aktuelle Kanäle:**
-
-1. **Recruiting-Agenturen:** Toni arbeitet mit spezialisierten Tech-Vermittlern, die ihn an regulierte Kunden vermitteln
-1. **Direkter Mittelstand:** LinkedIn Sales Navigator, IHK-Events, Branchenverbände
-1. **Partner-Netzwerk:** Zusammenarbeit mit Compliance-Consultants, Security-Freelancern, Agile Coaches für gemeinsame Projekte
-1. **Content Marketing:** LinkedIn als Hauptkanal für Thought Leadership zu NIS2, DevSecOps, KRITIS
-
-### **Typische Projektgrößen:**
-
-- **Assessment:** 2 Wochen, 8.000-15.000€ Fixpreis
-- **Transformation:** 3-6 Monate, 1.400-1.600€/Tag
-- **Langfristige Begleitung:** Fractional-Advisor-Rolle möglich
-
-### **Preispositionierung:**
-
-Toni positioniert sich im Premium-Segment (1.400-1.600€/Tag aktuell, Ziel 1.600-2.000€/Tag ab 2026), da er nicht nur technische Umsetzung, sondern strategische Architektur und Compliance-Expertise kombiniert.
-
------
-
-## **Aktueller Status & Entwicklung**
-
-### **Phase 2025: Bridge Positioning & Case-Building**
-
-Toni befindet sich in einer Übergangsphase:
-
-- **Alt:** “DevOps-Freelancer für verschiedene Branchen”
-- **Neu:** “DevSecOps-Architekt für KRITIS & regulierte Mittelständler”
-
-Seine Strategie für 2025:
-
-1. **Q1-Q2:** Erste NIS2/DORA-Projekte annehmen (auch wenn kleinere Kunden), um Referenzen aufzubauen
-1. **Q2-Q3:** Case Studies veröffentlichen, LinkedIn-Content intensivieren, Vorträge/Webinare halten
-1. **Q3-Q4:** Sichtbarkeit als KRITIS/NIS2-Experte etablieren
-1. **2026+:** Premium-Positionierung mit höherem Tagessatz und direktem Zugang zu großen KRITIS-Betreibern
-
-### **Was noch fehlt (in Entwicklung):**
-
-- Nachweisbare NIS2/DORA-Referenzen mit konkreten Zahlen
-- Öffentliche Thought Leadership (Artikel, Vorträge, Whitepapers)
-- Zertifizierungen (ISO27001 Lead Auditor, CISSP – geplant)
-- Direkter Zugang zu KRITIS-Konzernen (wird über Netzwerk aufgebaut)
-
------
-
-## **Zusammenfassung in einem Absatz**
-
-**Toni Menzel ist DevSecOps-Architekt für KRITIS-Betreiber und regulierte Mittelständler mit 20+ Jahren Erfahrung in Banking, Aerospace, Defense, MedTech, Energy und Public Sector. Er transformiert chaotische Software-Delivery-Prozesse in professionelle, audit-sichere Systeme, die NIS2, DORA und CRA erfüllen – nicht durch Bürokratie, sondern durch technische Exzellenz. Sein Ansatz: Hands-on Architekturarbeit kombiniert mit Team-Enablement, sodass Compliance zum Beschleuniger wird statt zur Bremse. Am Ende haben seine Kunden schnellere Releases, reduzierte Risiken, bestandene Audits – und Teams, die wieder verstehen, was sie tun und warum.**
+**Version 2.0 | Januar 2025 | Erstellt durch KI-Sparring**
