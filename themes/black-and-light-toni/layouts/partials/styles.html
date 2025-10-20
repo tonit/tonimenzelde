@@ -1016,17 +1016,17 @@
     font-style: italic;
   }
 
-  /* Result Tiles */
+  /* Result Tiles - 3 columns each for 2 tiles per row */
   .tile-result {
-    grid-column: span 1;
+    grid-column: span 3;
     background: #ffffff;
     border-color: #88eead;
-    text-align: center;
-    padding: 32px 24px;
+    text-align: left;
+    padding: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 12px;
+    gap: 24px;
   }
 
   .tile-result:hover {
@@ -1035,22 +1035,23 @@
   }
 
   .result-icon {
-    font-size: 48px;
+    font-size: 56px;
     line-height: 1;
     margin: 0;
+    flex-shrink: 0;
   }
 
   .tile-result h4 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     margin: 0 0 8px 0;
   }
 
   .tile-result p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     color: #666666;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   .tile-result:hover p {
@@ -1121,6 +1122,138 @@
     color: #000000;
   }
 
+  /* CTA Tile - Takes 2 columns */
+  .tile-cta {
+    grid-column: span 2;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 36px;
+  }
+
+  .tile-cta h2 {
+    color: #ffffff;
+    margin: 0 0 12px 0;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .tile-cta p {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0 0 24px 0;
+  }
+
+  .tile-cta .cta-button {
+    display: inline-block;
+    padding: 16px 40px;
+    background: #88eead;
+    color: #000000;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 0;
+    text-decoration: none;
+    border: 3px solid #88eead;
+    transition: all 0.15s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .tile-cta .cta-button:hover {
+    background: #000000;
+    color: #88eead;
+    transform: scale(1.05);
+    border: 3px solid #88eead;
+  }
+
+  /* Combined Contact Tile */
+  .tile-contact-combined {
+    grid-column: span 3;
+    background: #ffffff;
+    padding: 40px;
+  }
+
+  .tile-contact-combined:hover {
+    background: #fafafa;
+  }
+
+  .tile-contact-combined h3 {
+    margin: 0 0 24px 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contact-item-inline {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .contact-item-inline svg {
+    flex-shrink: 0;
+    color: #000000;
+  }
+
+  .contact-item-inline a {
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #000000;
+    font-weight: 600;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  .contact-item-inline a:hover {
+    color: #000000;
+    background-color: #88eead;
+  }
+
+  /* Stat Tiles - Compact info tiles */
+  .tile-stat {
+    grid-column: span 1;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px 24px;
+    gap: 12px;
+  }
+
+  .tile-stat:hover {
+    background: #88eead;
+  }
+
+  .stat-number {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1;
+    color: #000000;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666666;
+    font-weight: 600;
+  }
+
+  .tile-stat:hover .stat-label {
+    color: #000000;
+  }
+
   /* Mobile Responsive */
   @media (max-width: 850px) {
     .bento-container {
@@ -1136,7 +1269,10 @@
     .tile-quote,
     .tile-result,
     .tile-philosophy,
-    .tile-experience {
+    .tile-experience,
+    .tile-cta,
+    .tile-contact-combined,
+    .tile-stat {
       grid-column: span 1 !important;
       grid-row: span 1 !important;
     }
@@ -1164,6 +1300,14 @@
 
     .tile-result {
       grid-column: span 1;
+    }
+
+    .tile-cta {
+      padding: 40px 32px;
+    }
+
+    .tile-cta h2 {
+      font-size: 28px;
     }
   }
 
